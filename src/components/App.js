@@ -5,7 +5,14 @@ import About from "./About";
 import ProjectList from "./ProjectList";
 import user from "../data/user";
 
+
 function App() {
+  const projects = [
+    { id: 1, technologies: ['React', 'JavaScript'] },
+    { id: 2, technologies: ['Vue', 'JavaScript'] },
+    { id: 3, technologies: ['Angular', 'TypeScript'] }
+  ];
+
   return (
     <div>
       <NavBar />
@@ -15,5 +22,8 @@ function App() {
     </div>
   );
 }
+
+
+
 
 export default App;
